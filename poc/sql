@@ -1,0 +1,9 @@
+create database ToDoList;
+use ToDoList;
+create table tbl_tasks: {
+  tsk_Id int autoincrement,
+  tsk_priority int, 
+  tsk_task varchard(200), 
+  tsk_status varchar(15)
+}
+describe tbl_tasks;
